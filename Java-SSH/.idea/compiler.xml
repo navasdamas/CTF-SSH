@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JSch_test" />
         <module name="Java_SSH" />
+        <module name="Java-SSH" />
       </profile>
     </annotationProcessing>
   </component>

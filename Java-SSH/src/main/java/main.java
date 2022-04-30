@@ -1,11 +1,12 @@
 import com.jcraft.jsch.*;
 
-import java.io.ByteArrayInputStream;
+import java.io.*;
 import java.nio.file.Paths;
+import java.util.Scanner;
 
 public class main  {
 
-    public static void main(String[] args) throws JSchException{
+    public static void main(String[] args) throws JSchException, IOException {
 
         //Definimos el nombre de usuario y la contraseña del host al que queremos conectarnos
         String username = "user";
